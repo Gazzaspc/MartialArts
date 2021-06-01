@@ -121,9 +121,9 @@ header {
         right: 10px;
     }
 
-    .fColor1 {
-        color:white;
-    }
+.fColor1 {
+    color: white;
+}
 
 #footerDiv {
     position: relative;
@@ -132,17 +132,17 @@ header {
     background-color: rgb(138, 191, 233);
 }
 
-    #footerAuth {
-        position:absolute;
-        font-size:0.75em;
-        float:left;
-        padding:0 25px 0 25px;
-        bottom: 0;
-        margin: 0;
-    }
+#footerAuth {
+    position: absolute;
+    font-size: 0.75em;
+    float: left;
+    padding: 0 25px 0 25px;
+    bottom: 0;
+    margin: 0;
+}
 
 #footerImg {
-    width:50%;
+    width: 50%;
 }
 
 .fs2 {
@@ -259,7 +259,7 @@ header {
         }
 
 .verticalCenterMeParent {
-    position:relative;
+    position: relative;
 }
 
 .verticalCenterMeChild {

@@ -6,11 +6,8 @@ function resetBlocker() {
 
     for (x of myBlocker) {
         x.style.height = myHeader.offsetHeight + "px";
-        //alert("1 " + x.style.height);
-        //alert("2 " + myHeader.offsetHeight);
-        /*document.getElementById("pSize").innerHTML = myHeader.offsetHeight + " x = " + x.style.height;*/
     }
 }
 
-resetBlocker();
-window.onresize = resetBlocker;
+resetBlocker(); // Need this here so it resizes straight away
+window.onresize = resetBlocker; //Need this here so it resizes when the screen size changes
